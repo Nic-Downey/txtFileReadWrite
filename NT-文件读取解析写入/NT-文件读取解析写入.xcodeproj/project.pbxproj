@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F09815B11DB6091A00FB4760 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F09815A81DB6091A00FB4760 /* AppDelegate.m */; };
+		F09815B21DB6091A00FB4760 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F09815A91DB6091A00FB4760 /* Assets.xcassets */; };
+		F09815B31DB6091A00FB4760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09815AA1DB6091A00FB4760 /* LaunchScreen.storyboard */; };
+		F09815B41DB6091A00FB4760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09815AC1DB6091A00FB4760 /* Main.storyboard */; };
+		F09815B61DB6091A00FB4760 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F09815AF1DB6091A00FB4760 /* main.m */; };
+		F09815B81DB609DD00FB4760 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F09815B71DB609DD00FB4760 /* Info.plist */; };
+		F09815BB1DB60A6A00FB4760 /* Grade.m in Sources */ = {isa = PBXBuildFile; fileRef = F09815BA1DB60A6A00FB4760 /* Grade.m */; };
+		F09815BE1DB60BE100FB4760 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F09815BD1DB60BE100FB4760 /* TableViewCell.m */; };
+		F09815C01DB60C2100FB4760 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F09815BF1DB60C2100FB4760 /* TableViewCell.xib */; };
+		F09815C61DB6116600FB4760 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F09815C51DB6116600FB4760 /* TableViewController.m */; };
+		F09815CA1DB6135800FB4760 /* 大学成绩单.txt in Resources */ = {isa = PBXBuildFile; fileRef = F09815C91DB6135800FB4760 /* 大学成绩单.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F098158A1DB6076300FB4760 /* NT-文件读取解析写入.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NT-文件读取解析写入.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09815A71DB6091A00FB4760 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F09815A81DB6091A00FB4760 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F09815A91DB6091A00FB4760 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F09815AB1DB6091A00FB4760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F09815AD1DB6091A00FB4760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F09815AF1DB6091A00FB4760 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F09815B71DB609DD00FB4760 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		F09815B91DB60A6A00FB4760 /* Grade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grade.h; sourceTree = "<group>"; };
+		F09815BA1DB60A6A00FB4760 /* Grade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grade.m; sourceTree = "<group>"; };
+		F09815BC1DB60BE100FB4760 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		F09815BD1DB60BE100FB4760 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		F09815BF1DB60C2100FB4760 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		F09815C41DB6116600FB4760 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		F09815C51DB6116600FB4760 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		F09815C91DB6135800FB4760 /* 大学成绩单.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "大学成绩单.txt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F09815871DB6076300FB4760 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F09815811DB6076300FB4760 = {
+			isa = PBXGroup;
+			children = (
+				F09815A41DB6091A00FB4760 /* Controller */,
+				F09815A51DB6091A00FB4760 /* Model */,
+				F09815A61DB6091A00FB4760 /* Other */,
+				F09815B01DB6091A00FB4760 /* View */,
+				F098158B1DB6076300FB4760 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F098158B1DB6076300FB4760 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F098158A1DB6076300FB4760 /* NT-文件读取解析写入.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F09815A41DB6091A00FB4760 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F09815C41DB6116600FB4760 /* TableViewController.h */,
+				F09815C51DB6116600FB4760 /* TableViewController.m */,
+			);
+			name = Controller;
+			path = "NT-文件读取解析写入/Controller";
+			sourceTree = "<group>";
+		};
+		F09815A51DB6091A00FB4760 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F09815B91DB60A6A00FB4760 /* Grade.h */,
+				F09815BA1DB60A6A00FB4760 /* Grade.m */,
+			);
+			name = Model;
+			path = "NT-文件读取解析写入/Model";
+			sourceTree = "<group>";
+		};
+		F09815A61DB6091A00FB4760 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F09815B71DB609DD00FB4760 /* Info.plist */,
+				F09815C91DB6135800FB4760 /* 大学成绩单.txt */,
+				F09815A71DB6091A00FB4760 /* AppDelegate.h */,
+				F09815A81DB6091A00FB4760 /* AppDelegate.m */,
+				F09815A91DB6091A00FB4760 /* Assets.xcassets */,
+				F09815AA1DB6091A00FB4760 /* LaunchScreen.storyboard */,
+				F09815AC1DB6091A00FB4760 /* Main.storyboard */,
+				F09815AF1DB6091A00FB4760 /* main.m */,
+			);
+			name = Other;
+			path = "NT-文件读取解析写入/Other";
+			sourceTree = "<group>";
+		};
+		F09815B01DB6091A00FB4760 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F09815BC1DB60BE100FB4760 /* TableViewCell.h */,
+				F09815BD1DB60BE100FB4760 /* TableViewCell.m */,
+				F09815BF1DB60C2100FB4760 /* TableViewCell.xib */,
+			);
+			name = View;
+			path = "NT-文件读取解析写入/View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F09815891DB6076300FB4760 /* NT-文件读取解析写入 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F09815A11DB6076300FB4760 /* Build configuration list for PBXNativeTarget "NT-文件读取解析写入" */;
+			buildPhases = (
+				F09815861DB6076300FB4760 /* Sources */,
+				F09815871DB6076300FB4760 /* Frameworks */,
+				F09815881DB6076300FB4760 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NT-文件读取解析写入";
+			productName = "NT-文件读取解析写入";
+			productReference = F098158A1DB6076300FB4760 /* NT-文件读取解析写入.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F09815821DB6076300FB4760 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Nic;
+				TargetAttributes = {
+					F09815891DB6076300FB4760 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 96P25WJPV7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F09815851DB6076300FB4760 /* Build configuration list for PBXProject "NT-文件读取解析写入" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F09815811DB6076300FB4760;
+			productRefGroup = F098158B1DB6076300FB4760 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F09815891DB6076300FB4760 /* NT-文件读取解析写入 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F09815881DB6076300FB4760 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09815CA1DB6135800FB4760 /* 大学成绩单.txt in Resources */,
+				F09815B81DB609DD00FB4760 /* Info.plist in Resources */,
+				F09815C01DB60C2100FB4760 /* TableViewCell.xib in Resources */,
+				F09815B31DB6091A00FB4760 /* LaunchScreen.storyboard in Resources */,
+				F09815B21DB6091A00FB4760 /* Assets.xcassets in Resources */,
+				F09815B41DB6091A00FB4760 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F09815861DB6076300FB4760 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09815BB1DB60A6A00FB4760 /* Grade.m in Sources */,
+				F09815BE1DB60BE100FB4760 /* TableViewCell.m in Sources */,
+				F09815B11DB6091A00FB4760 /* AppDelegate.m in Sources */,
+				F09815C61DB6116600FB4760 /* TableViewController.m in Sources */,
+				F09815B61DB6091A00FB4760 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F09815AA1DB6091A00FB4760 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F09815AB1DB6091A00FB4760 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F09815AC1DB6091A00FB4760 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F09815AD1DB6091A00FB4760 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F098159F1DB6076300FB4760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F09815A01DB6076300FB4760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F09815A21DB6076300FB4760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 96P25WJPV7;
+				INFOPLIST_FILE = "NT-文件读取解析写入/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.tang.NT---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F09815A31DB6076300FB4760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 96P25WJPV7;
+				INFOPLIST_FILE = "NT-文件读取解析写入/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.tang.NT---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F09815851DB6076300FB4760 /* Build configuration list for PBXProject "NT-文件读取解析写入" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F098159F1DB6076300FB4760 /* Debug */,
+				F09815A01DB6076300FB4760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F09815A11DB6076300FB4760 /* Build configuration list for PBXNativeTarget "NT-文件读取解析写入" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09815A21DB6076300FB4760 /* Debug */,
+				F09815A31DB6076300FB4760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F09815821DB6076300FB4760 /* Project object */;
+}
